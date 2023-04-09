@@ -12,6 +12,8 @@ const Book = ()=>{
             <p>
                 نام کتاب : {" "}{book.name}
             </p>
+            <p>تاریخ انتشار: {book.due}</p>
+            <button>حذف کتاب</button>
         </main>
     )
 }
